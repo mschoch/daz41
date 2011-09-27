@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0443B41143269AD00FE7298 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0443B40143269AD00FE7298 /* UIKit.framework */; };
+		E0443B43143269AD00FE7298 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0443B42143269AD00FE7298 /* Foundation.framework */; };
+		E0443B45143269AD00FE7298 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0443B44143269AD00FE7298 /* CoreGraphics.framework */; };
+		E0443B4B143269AD00FE7298 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0443B49143269AD00FE7298 /* InfoPlist.strings */; };
+		E0443B4D143269AD00FE7298 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0443B4C143269AD00FE7298 /* main.m */; };
+		E0443B51143269AD00FE7298 /* daz41AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0443B50143269AD00FE7298 /* daz41AppDelegate.m */; };
+		E0443B54143269AD00FE7298 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0443B52143269AD00FE7298 /* MainWindow.xib */; };
+		E0443B57143269AD00FE7298 /* daz41ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0443B56143269AD00FE7298 /* daz41ViewController.m */; };
+		E0443B5A143269AD00FE7298 /* daz41ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0443B58143269AD00FE7298 /* daz41ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0443B3C143269AD00FE7298 /* daz41.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daz41.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0443B40143269AD00FE7298 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0443B42143269AD00FE7298 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0443B44143269AD00FE7298 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0443B48143269AD00FE7298 /* daz41-Info.plist */ = {isa = PBXFileReference; path = "daz41-Info.plist"; sourceTree = "<group>"; };
+		E0443B4A143269AD00FE7298 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0443B4C143269AD00FE7298 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0443B4E143269AD00FE7298 /* daz41-Prefix.pch */ = {isa = PBXFileReference; path = "daz41-Prefix.pch"; sourceTree = "<group>"; };
+		E0443B4F143269AD00FE7298 /* daz41AppDelegate.h */ = {isa = PBXFileReference; path = daz41AppDelegate.h; sourceTree = "<group>"; };
+		E0443B50143269AD00FE7298 /* daz41AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = daz41AppDelegate.m; sourceTree = "<group>"; };
+		E0443B53143269AD00FE7298 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E0443B55143269AD00FE7298 /* daz41ViewController.h */ = {isa = PBXFileReference; path = daz41ViewController.h; sourceTree = "<group>"; };
+		E0443B56143269AD00FE7298 /* daz41ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = daz41ViewController.m; sourceTree = "<group>"; };
+		E0443B59143269AD00FE7298 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/daz41ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0443B39143269AD00FE7298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0443B41143269AD00FE7298 /* UIKit.framework in Frameworks */,
+				E0443B43143269AD00FE7298 /* Foundation.framework in Frameworks */,
+				E0443B45143269AD00FE7298 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0443B31143269AD00FE7298 = {
+			isa = PBXGroup;
+			children = (
+				E0443B46143269AD00FE7298 /* daz41 */,
+				E0443B3F143269AD00FE7298 /* Frameworks */,
+				E0443B3D143269AD00FE7298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0443B3D143269AD00FE7298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0443B3C143269AD00FE7298 /* daz41.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0443B3F143269AD00FE7298 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0443B40143269AD00FE7298 /* UIKit.framework */,
+				E0443B42143269AD00FE7298 /* Foundation.framework */,
+				E0443B44143269AD00FE7298 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0443B46143269AD00FE7298 /* daz41 */ = {
+			isa = PBXGroup;
+			children = (
+				E0443B4F143269AD00FE7298 /* daz41AppDelegate.h */,
+				E0443B50143269AD00FE7298 /* daz41AppDelegate.m */,
+				E0443B52143269AD00FE7298 /* MainWindow.xib */,
+				E0443B55143269AD00FE7298 /* daz41ViewController.h */,
+				E0443B56143269AD00FE7298 /* daz41ViewController.m */,
+				E0443B58143269AD00FE7298 /* daz41ViewController.xib */,
+				E0443B47143269AD00FE7298 /* Supporting Files */,
+			);
+			path = daz41;
+			sourceTree = "<group>";
+		};
+		E0443B47143269AD00FE7298 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0443B48143269AD00FE7298 /* daz41-Info.plist */,
+				E0443B49143269AD00FE7298 /* InfoPlist.strings */,
+				E0443B4C143269AD00FE7298 /* main.m */,
+				E0443B4E143269AD00FE7298 /* daz41-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0443B3B143269AD00FE7298 /* daz41 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0443B5D143269AD00FE7298 /* Build configuration list for PBXNativeTarget "daz41" */;
+			buildPhases = (
+				E0443B38143269AD00FE7298 /* Sources */,
+				E0443B39143269AD00FE7298 /* Frameworks */,
+				E0443B3A143269AD00FE7298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = daz41;
+			productName = daz41;
+			productReference = E0443B3C143269AD00FE7298 /* daz41.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0443B33143269AD00FE7298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Hexedit Reality, LLC";
+			};
+			buildConfigurationList = E0443B36143269AD00FE7298 /* Build configuration list for PBXProject "daz41" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0443B31143269AD00FE7298;
+			productRefGroup = E0443B3D143269AD00FE7298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0443B3B143269AD00FE7298 /* daz41 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0443B3A143269AD00FE7298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0443B4B143269AD00FE7298 /* InfoPlist.strings in Resources */,
+				E0443B54143269AD00FE7298 /* MainWindow.xib in Resources */,
+				E0443B5A143269AD00FE7298 /* daz41ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0443B38143269AD00FE7298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0443B4D143269AD00FE7298 /* main.m in Sources */,
+				E0443B51143269AD00FE7298 /* daz41AppDelegate.m in Sources */,
+				E0443B57143269AD00FE7298 /* daz41ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0443B49143269AD00FE7298 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0443B4A143269AD00FE7298 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0443B52143269AD00FE7298 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0443B53143269AD00FE7298 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E0443B58143269AD00FE7298 /* daz41ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0443B59143269AD00FE7298 /* en */,
+			);
+			name = daz41ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0443B5B143269AD00FE7298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0443B5C143269AD00FE7298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0443B5E143269AD00FE7298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "daz41/daz41-Prefix.pch";
+				INFOPLIST_FILE = "daz41/daz41-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0443B5F143269AD00FE7298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "daz41/daz41-Prefix.pch";
+				INFOPLIST_FILE = "daz41/daz41-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0443B36143269AD00FE7298 /* Build configuration list for PBXProject "daz41" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0443B5B143269AD00FE7298 /* Debug */,
+				E0443B5C143269AD00FE7298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0443B5D143269AD00FE7298 /* Build configuration list for PBXNativeTarget "daz41" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0443B5E143269AD00FE7298 /* Debug */,
+				E0443B5F143269AD00FE7298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0443B33143269AD00FE7298 /* Project object */;
+}
