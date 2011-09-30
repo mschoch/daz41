@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Couchbase/CouchbaseMobile.h>
 
 @class daz41ViewController;
 
-@interface daz41AppDelegate : NSObject <UIApplicationDelegate>
+@interface daz41AppDelegate : NSObject <UIApplicationDelegate, CouchbaseDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
